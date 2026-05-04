@@ -45,10 +45,10 @@ export default function Home() {
   <div className="absolute right-[-200px] top-[-100px] w-[700px] h-[700px] bg-blue-600/20 blur-3xl rounded-full z-0"></div>
 
   {/* LEFT CONTENT */}
-  <div className="relative z-30 max-w-lg pr-10">
+  <div className="relative z-30 max-w-xl md:max-w-2xl pr-0 md:pr-10">
 
    
-    <h1 className="text-6xl font-bold leading-tight">
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight">
       <span className="text-blue-500">AI-Powered</span>
       <br />
       Fitness.
@@ -111,14 +111,24 @@ export default function Home() {
   </div>
 
   {/* PHONE (MAIN HERO) */}
-  <motion.img
+<motion.img
   src="/images/hero-phone.png"
   alt="Hero"
-  className="absolute right-[2%] bottom-0 
-             w-[750px] md:w-[850px] lg:w-[950px] 
-             max-w-none z-10 
-             drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]
-             transition-all duration-500"
+  className="absolute right-0 md:right-[5%] bottom-0 
+             w-[70vw] md:w-[50vw] 
+             max-w-[850px] min-w-[320px] 
+             z-10 
+             drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
+
+  animate={{
+    y: [0, -20, 0],   // floating up and down
+  }}
+
+  transition={{
+    duration: 4,
+    repeat: Infinity,
+    ease: "easeInOut"
+  }}
 />
 
   {/* BOTTOM FADE */}

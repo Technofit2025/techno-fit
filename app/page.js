@@ -36,7 +36,7 @@ export default function Home() {
 </nav>
 
       {/* HERO */}
-     <section className="relative min-h-screen flex items-center px-10 overflow-hidden">
+     <section className="relative min-h-screen grid md:grid-cols-2 items-center px-6 md:px-10 overflow-hidden">
 
   {/* BACKGROUND */}
   <div className="absolute inset-0 bg-black z-0"></div>
@@ -45,7 +45,7 @@ export default function Home() {
   <div className="absolute right-[-200px] top-[-100px] w-[700px] h-[700px] bg-blue-600/20 blur-3xl rounded-full z-0"></div>
 
   {/* LEFT CONTENT */}
-  <div className="relative z-30 max-w-xl md:max-w-2xl pr-0 md:pr-10">
+  <div className="relative z-30 max-w-xl">
 
    
     <h1 className="text-4xl md:text-6xl font-bold leading-tight">
@@ -84,7 +84,7 @@ export default function Home() {
     </div>
 
     {/* FEATURE ICONS */}
-    <div className="mt-12 flex gap-10 text-sm p-text">
+    <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm p-text">
 
       <div className="flex flex-col items-center">
         <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center mb-2">🧍</div>
@@ -115,8 +115,8 @@ export default function Home() {
   src="/images/hero-phone.png"
   alt="Hero"
   className="absolute right-0 md:right-[5%] bottom-0 
-             w-[70vw] md:w-[50vw] 
-             max-w-[850px] min-w-[320px] 
+             w-[75vw] md:w-[50vw] 
+             max-w-[850px] min-w-[300px] 
              z-10 
              drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 

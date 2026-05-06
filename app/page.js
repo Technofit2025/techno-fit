@@ -65,9 +65,23 @@ export default function Home() {
       By combining artificial intelligence, motion tracking, and human-like interaction,
       TechnoFit transforms your device into a truly intelligent coach.
     </p>
+    <motion.img
+  src="/images/hero-phone.png"
+  alt="Hero"
+  className="
+    block md:hidden
+    mt-8
+    w-[88vw]
+    max-w-[380px]
+    mx-auto
+    drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]
+  "
+  animate={{ y: [0, -15, 0] }}
+  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+/>
 
     {/* CTA */}
-    <div className="mt-8 flex gap-4">
+    <div className="mt-8 flex flex-wrap gap-4">
 
       <a href="/contact">
         <button className="px-6 py-3 bg-blue-600 rounded-xl shadow-[0_0_20px_#3b82f6] hover:scale-105 transition">
@@ -84,7 +98,7 @@ export default function Home() {
     </div>
 
     {/* FEATURE ICONS */}
-    <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm p-text">
+    <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm p-text text-center justify-items-center">
 
       <div className="flex flex-col items-center">
         <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center mb-2">🧍</div>
@@ -114,11 +128,13 @@ export default function Home() {
 <motion.img
   src="/images/hero-phone.png"
   alt="Hero"
-  className="absolute right-0 md:right-[5%] bottom-0 
-             w-[75vw] md:w-[50vw] 
-             max-w-[850px] min-w-[300px] 
-             z-10 
-             drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
+  className="
+hidden md:block
+absolute right-0 md:right-[5%] bottom-0 
+w-[75vw] md:w-[50vw] 
+max-w-[850px] min-w-[300px] 
+z-10 
+drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 
   animate={{
     y: [0, -20, 0],   // floating up and down

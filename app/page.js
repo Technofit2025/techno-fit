@@ -11,29 +11,7 @@ export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen overflow-x-hidden">
 
-      {/* NAVBAR */}
-      <nav className="flex justify-between items-center px-10 py-5 bg-white shadow-sm">
-
-  {/* LOGO */}
-  <img src="/logo.png" className="h-10" />
-
-  {/* MENU */}
-  <div className="flex items-center gap-8 text-gray-700 font-medium">
-
-    <a href="/" className="hover:text-blue-500 transition">Home</a>
-    <a href="/features" className="hover:text-blue-500 transition">Features</a>
-    <a href="/about" className="hover:text-blue-500 transition">About</a>
-
-    {/* CTA BUTTON */}
-    <a href="/contact">
-      <button className="ml-4 px-5 py-2 bg-blue-600 text-white rounded-full shadow-md hover:scale-105 transition">
-        Early Access
-      </button>
-    </a>
-
-  </div>
-
-</nav>
+      
 
       {/* HERO */}
      <section className="relative min-h-screen grid md:grid-cols-2 items-center px-6 md:px-10 overflow-hidden">

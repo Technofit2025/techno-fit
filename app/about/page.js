@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 
 const fadeUp = {
@@ -12,8 +11,7 @@ export default function About() {
   return (
     <main className="bg-black text-white min-h-screen overflow-x-hidden">
 
-      <Navbar />
-
+      
       {/* HERO */}
       <section className="relative text-center py-28 px-6">
         <div className="absolute inset-0 bg-blue-600/10 blur-3xl"></div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-
+import Navbar from "./components/Navbar";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -38,7 +38,10 @@ export default function RootLayout({
   data-server="https://api.foyer.ink"
 />
 
-        {children}
+        <Navbar />
+<main className="pt-16">
+  {children}
+</main>
 
       </body>
     </html>

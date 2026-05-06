@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <main className="bg-black text-white min-h-screen">
 
-      <Navbar />
+      
 
       {/* HERO */}
       <section className="text-center py-28 px-6">

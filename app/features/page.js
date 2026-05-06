@@ -16,7 +16,7 @@ export default function Features() {
   return (
     <main className="bg-black text-white min-h-screen overflow-x-hidden">
 
-      <Navbar />
+      
 
       {/* HERO */}
       <section className="text-center py-32 px-6 relative">

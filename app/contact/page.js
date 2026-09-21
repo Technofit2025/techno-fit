@@ -126,7 +126,7 @@ export default function Contact() {
         <div className="relative group flex justify-center">
 
           <img
-            src="/images/early-access-preview.png"
+            src="/images/early-access-preview.webp"
             alt="TechnoFit Preview"
             className="w-full max-w-md rounded-2xl shadow-2xl transition duration-500 group-hover:scale-105"
           />

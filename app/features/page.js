@@ -42,7 +42,7 @@ export default function Features() {
         {/* AI POSE */}
         <FeatureBlock
           title="Real-Time AI Pose Correction"
-          image="/images/feature-pose.png"
+          image="/images/feature-pose.webp"
           reverse={false}
           content={[
   "Most people believe they are working hard — but very few are working correctly. The biggest reason people don’t see results is not lack of effort, but incorrect form.",
@@ -62,7 +62,7 @@ export default function Features() {
         {/* TRAINER */}
         <FeatureBlock
           title="Your Personal AI Trainer"
-          image="/images/feature-trainer.png"
+          image="/images/feature-trainer.webp"
           reverse={true}
           content={[
   "Traditional fitness apps rely on pre-recorded videos. They don’t adapt, they don’t respond, and they don’t understand you.",
@@ -82,7 +82,7 @@ export default function Features() {
         {/* VOICE */}
         <FeatureBlock
           title="Voice-Based AI Coaching"
-          image="/images/feature-voice.png"
+          image="/images/feature-voice.webp"
           reverse={false}
           content={[
   "In the middle of a workout, the last thing you want is to tap screens or navigate menus.",
@@ -102,7 +102,7 @@ export default function Features() {
         {/* DIET */}
         <FeatureBlock
           title="Smart Diet & Nutrition Guidance"
-          image="/images/feature-diet.png"
+          image="/images/feature-diet.webp"
           reverse={true}
           content={[
   "Exercise alone cannot transform your body — nutrition plays an equally critical role.",
@@ -122,7 +122,7 @@ export default function Features() {
         {/* FOOD SCAN */}
         <FeatureBlock
           title="Food Scan & Calorie Detection"
-          image="/images/feature-food-scan.png"
+          image="/images/feature-food-scan.webp"
           reverse={false}
           content={[
   "One of the biggest challenges in fitness is understanding what you are actually consuming.",
@@ -142,7 +142,7 @@ export default function Features() {
         {/* SMART EATING */}
         <FeatureBlock
           title="Smart Eating Assistant"
-          image="/images/feature-smart-eating.png"
+          image="/images/feature-smart-eating.webp"
           reverse={true}
           content={[
   "Staying disciplined with diet becomes hardest when you eat outside.",
@@ -162,7 +162,7 @@ export default function Features() {
         {/* MENTAL HEALTH */}
         <FeatureBlock
           title="Mental Health & Wellness"
-          image="/images/feature-mental-wellness.png"
+          image="/images/feature-mental-wellness.webp"
           reverse={false}
           content={[
   "Fitness is not just about the body — it’s equally about the mind.",
@@ -182,7 +182,7 @@ export default function Features() {
         {/* PHYSIO */}
         <FeatureBlock
           title="AI Physiotherapy & Recovery"
-          image="/images/feature-physiotherapy.png"
+          image="/images/feature-physiotherapy.webp"
           reverse={true}
           content={[
   "Injuries, pain, and physical limitations are one of the biggest reasons people stop their fitness journey.",

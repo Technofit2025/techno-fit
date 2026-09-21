@@ -94,7 +94,7 @@ export default function About() {
 
     <div className="relative w-36 h-36 mx-auto mb-6">
       <img
-        src="/images/ai-jazz.png"
+        src="/images/ai-jazz.webp"
         className="w-full h-full object-cover rounded-full"
       />
 
@@ -117,7 +117,7 @@ export default function About() {
 
     <div className="relative w-36 h-36 mx-auto mb-6">
       <img
-        src="/images/ai-wasim.png"
+        src="/images/ai-wasim.webp"
         className="w-full h-full object-cover rounded-full"
       />
 
@@ -153,7 +153,7 @@ export default function About() {
 
     <div className="w-40 h-40 rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
       <img
-        src="/images/founder-wasim.png"
+        src="/images/founder-wasim.webp"
         className="w-full h-full object-cover scale-110"
       />
     </div>
@@ -198,7 +198,7 @@ export default function About() {
 
     <div className="w-40 h-40 rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
       <img
-        src="/images/cofounder-jason.png"
+        src="/images/cofounder-jason.webp"
         className="w-full h-full object-cover scale-110"
       />
     </div>
@@ -261,7 +261,7 @@ export default function About() {
       <div className="relative w-36 h-36 mx-auto mb-6">
         <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
           <img
-            src="/images/team-dicki.png"
+            src="/images/team-dicki.webp"
             className="w-full h-full object-cover scale-110"
           />
         </div>
@@ -282,7 +282,7 @@ export default function About() {
       <div className="relative w-36 h-36 mx-auto mb-6">
         <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
           <img
-            src="/images/team-faisal.png"
+            src="/images/team-faisal.webp"
             className="w-full h-full object-cover scale-110"
           />
         </div>
@@ -303,7 +303,7 @@ export default function About() {
       <div className="relative w-36 h-36 mx-auto mb-6">
         <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
           <img
-            src="/images/team-ritesh.png"
+            src="/images/team-ritesh.webp"
             className="w-full h-full object-cover scale-110"
           />
         </div>
@@ -355,7 +355,7 @@ export default function About() {
           className="w-64 h-64 rounded-2xl overflow-hidden bg-black shadow-2xl"
         >
           <img
-            src="/images/partner-bhakti.png"
+            src="/images/partner-bhakti.webp"
             className="w-full h-full object-cover"
             alt="Bhakti Dabholkar"
           />

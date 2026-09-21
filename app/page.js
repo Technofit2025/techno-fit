@@ -39,12 +39,29 @@ export default function Home() {
       it observes, understands, corrects, and evolves with you in real time.
     </p>
 
-    <p className="mt-4 p-text leading-relaxed">
+    <p className="mt-4 p-text leading-relaxed hidden sm:block">
       By combining artificial intelligence, motion tracking, and human-like interaction,
       TechnoFit transforms your device into a truly intelligent coach.
     </p>
+    {/* CTA */}
+    <div className="mt-8 flex flex-wrap gap-4">
+
+      <a href="/contact">
+        <button className="px-6 py-3 bg-blue-600 rounded-xl shadow-[0_0_20px_#3b82f6] hover:scale-105 transition">
+          Get Early Access
+        </button>
+      </a>
+
+      <a href="#demo">
+  <button className="px-6 py-3 border border-white/20 rounded-xl hover:bg-white/10 transition">
+    Watch Demo
+  </button>
+</a>
+
+    </div>
+
     <motion.img
-  src="/images/hero-phone.png"
+  src="/images/hero-phone.webp"
   alt="Hero"
   className="
     block md:hidden
@@ -58,22 +75,7 @@ export default function Home() {
   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
 />
 
-    {/* CTA */}
-    <div className="mt-8 flex flex-wrap gap-4">
-
-      <a href="/contact">
-        <button className="px-6 py-3 bg-blue-600 rounded-xl shadow-[0_0_20px_#3b82f6] hover:scale-105 transition">
-          Download App
-        </button>
-      </a>
-
-      <a href="#demo">
-  <button className="px-6 py-3 border border-white/20 rounded-xl hover:bg-white/10 transition">
-    Watch Demo
-  </button>
-</a>
-
-    </div>
+    
 
     {/* FEATURE ICONS */}
     <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm p-text text-center justify-items-center">
@@ -104,7 +106,7 @@ export default function Home() {
 
   {/* PHONE (MAIN HERO) */}
 <motion.img
-  src="/images/hero-phone.png"
+  src="/images/hero-phone.webp"
   alt="Hero"
   className="
 hidden md:block
@@ -151,7 +153,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
          <div className="relative max-w-3xl mx-auto">
 
   <img
-    src="/images/ai-trainers.png"
+    src="/images/ai-trainers.webp"
     className="w-full max-w-4xl mx-auto rounded-2xl shadow-[0_0_60px_rgba(59,130,246,0.25)]"
   />
 
@@ -288,7 +290,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
       
       <img
-        src="/images/ui-splash.png"
+        src="/images/ui-splash.webp"
         className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
       />
 
@@ -301,7 +303,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
       
       <img
-        src="/images/ui-dashboard.png"
+        src="/images/ui-dashboard.webp"
         className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
       />
 
@@ -313,7 +315,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
       
       <img
-        src="/images/ui-training.png"
+        src="/images/ui-training.webp"
         className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
       />
 
@@ -345,7 +347,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     <div className="flex flex-col md:flex-row items-center gap-10 text-left">
 
       <img
-        src="/images/founder-wasim.png"
+        src="/images/founder-wasim.webp"
         className="w-44 h-44 object-cover rounded-full border border-white/10 shadow-[0_0_40px_rgba(59,130,246,0.25)]"
       />
 
@@ -381,7 +383,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     <div className="flex flex-col md:flex-row items-center gap-10 text-left">
 
       <img
-        src="/images/cofounder-jason.png"
+        src="/images/cofounder-jason.webp"
         className="w-44 h-44 object-cover rounded-full border border-white/10 shadow-[0_0_40px_rgba(59,130,246,0.25)]"
       />
 

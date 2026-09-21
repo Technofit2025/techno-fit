@@ -13,9 +13,42 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://techno-fit.com";
+
 export const metadata: Metadata = {
-  title: "TechnoFit",
-  description: "AI-powered fitness coaching platform",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "TechnoFit — AI-Powered Fitness Coaching",
+    template: "%s | TechnoFit",
+  },
+  description:
+    "TechnoFit turns your phone into an intelligent AI coach that sees your form, corrects you in real time, and adapts to your goals.",
+  applicationName: "TechnoFit",
+  keywords: [
+    "AI fitness app", "AI personal trainer", "pose correction", "real-time form correction",
+    "AI workout coach", "voice fitness coaching", "AI physiotherapy", "smart nutrition", "TechnoFit",
+  ],
+  authors: [{ name: "TechnoFit" }],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "TechnoFit",
+    url: SITE_URL,
+    title: "TechnoFit — AI-Powered Fitness. Real Results.",
+    description:
+      "Your phone becomes an intelligent coach that sees your form, corrects you in real time, and adapts to you.",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "TechnoFit — AI-Powered Fitness" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TechnoFit — AI-Powered Fitness. Real Results.",
+    description: "Your phone becomes an intelligent coach that sees, corrects and adapts to you.",
+    images: ["/og-image.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -29,6 +62,20 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className="bg-black text-white min-h-screen">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "TechnoFit",
+              url: "https://techno-fit.com",
+              logo: "https://techno-fit.com/apple-touch-icon.png",
+              description: "AI-powered fitness coaching platform.",
+              sameAs: [],
+            }),
+          }}
+        />
 
         {/* FOYER AI */}
         <Script

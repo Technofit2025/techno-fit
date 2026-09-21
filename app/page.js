@@ -210,10 +210,13 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     {/* VIDEO */}
     <video
       controls
-      className="w-full"
-      poster="/images/demo-thumbnail.png"
+      playsInline
+      preload="metadata"
+      className="w-full aspect-video bg-black"
+      poster="/images/demo-poster.jpg"
     >
-      <source src="/videos/demo.mp4" type="video/mp4" />
+      <source src="/videos/technofit-demo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
     </video>
 
   </div>

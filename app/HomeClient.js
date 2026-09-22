@@ -274,7 +274,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 </section>
 
       {/* FEATURES */}
-      <section className="py-20 px-10">
+      <section className="py-20 px-6 md:px-10">
         <h2 className="text-4xl text-center font-bold mb-16">
           Powerful Features Designed for <span className="text-emerald-400">Real Results</span>
         </h2>

@@ -19,7 +19,7 @@ export default function Features() {
       
 
       {/* HERO */}
-      <section className="text-center py-32 px-6 relative">
+      <section className="text-center py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-600/10 blur-3xl"></div>
         <div className="absolute right-0 top-0 w-[500px] h-[500px] bg-violet-600/10 blur-3xl rounded-full"></div>
 
@@ -38,7 +38,7 @@ export default function Features() {
       </section>
 
       {/* FEATURES */}
-      <section className="px-10 py-20 space-y-40 max-w-6xl mx-auto">
+      <section className="px-6 md:px-10 py-16 md:py-20 space-y-24 md:space-y-40 max-w-6xl mx-auto">
 
         {/* AI POSE */}
         <FeatureBlock

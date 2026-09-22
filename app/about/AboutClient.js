@@ -13,11 +13,11 @@ export default function About() {
 
       
       {/* HERO */}
-      <section className="relative text-center py-28 px-6">
+      <section className="relative text-center py-20 px-6">
         <div className="absolute inset-0 bg-blue-600/10 blur-3xl"></div>
 
         <motion.div initial="hidden" animate="show" variants={fadeUp} className="relative z-10">
-          <h1 className="text-5xl font-bold">The Story Behind TechnoFit</h1>
+          <h1 className="text-4xl md:text-5xl font-bold">The Story Behind TechnoFit</h1>
 
           <p className="mt-6 max-w-3xl mx-auto p-text leading-relaxed">
             A vision born at the intersection of elite athletic experience and advanced technology —
@@ -138,7 +138,7 @@ export default function About() {
 
       {/* FOUNDERS */}
       <motion.section initial="hidden" whileInView="show" variants={fadeUp}
-        className="py-28 px-10 bg-gray-900">
+        className="py-20 md:py-24 px-6 md:px-10 bg-gray-900">
 
         <h2 className="text-4xl font-bold text-center mb-16">
           The Visionaries Behind TechnoFit
@@ -326,7 +326,7 @@ export default function About() {
   whileInView="show"
   viewport={{ once: true }}
   variants={fadeUp}
-  className="py-28 px-10 bg-black"
+  className="py-20 md:py-24 px-6 md:px-10 bg-black"
 >
 
   {/* HEADING */}
@@ -401,7 +401,7 @@ export default function About() {
   initial="hidden"
   whileInView="show"
   variants={fadeUp}
-  className="py-28 px-6 text-center bg-black"
+  className="py-20 px-6 text-center bg-black"
 >
 
   <h2 className="text-4xl md:text-5xl font-bold mb-8">

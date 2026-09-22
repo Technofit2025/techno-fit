@@ -144,48 +144,64 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
   <div className="absolute bottom-0 w-full h-40 bg-gradient-to-t from-black to-transparent z-20"></div>
 
 </section>
-      {/* PARALLAX 3D TRAINER */}
-      <section className="py-32 px-6 text-center bg-gradient-to-b from-black to-gray-900">
+      {/* AI COACHES */}
+      <section className="py-20 md:py-24 px-6 text-center bg-gradient-to-b from-black to-gray-900 overflow-hidden">
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.7 }}
         >
 
-          <h2 className="text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Meet Your AI Fitness Coaches
           </h2>
 
-          <p className="max-w-3xl mx-auto p-text text-lg mb-12 leading-relaxed">
-  Meet your intelligent AI fitness coaches — designed to guide, demonstrate,
-  and correct your movements in real time. It’s like having a personal trainer
-  with you, but smarter, scalable, and always available.
-</p>
+          <p className="max-w-2xl mx-auto p-text mb-12 leading-relaxed">
+            Intelligent coaches that guide, demonstrate, and correct your movements in real time —
+            like having a personal trainer with you, but smarter, scalable, and always available.
+          </p>
 
-          <div className="relative max-w-5xl mx-auto flex items-end justify-center gap-4 md:gap-16">
+          <div className="relative mx-auto flex items-end justify-center gap-6 sm:gap-10 md:gap-20 max-w-3xl">
 
             {/* glow stage */}
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[70%] h-44 bg-gradient-to-r from-blue-600/30 to-violet-600/30 blur-3xl rounded-full -z-10"></div>
+            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[85%] h-32 bg-gradient-to-r from-blue-600/30 to-violet-600/30 blur-3xl rounded-full -z-10"></div>
 
+            {/* Wasim */}
             <motion.div
-              initial={{ opacity: 0, x: -40 }}
+              initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative w-1/2 max-w-xs"
+              className="relative flex flex-col items-center"
             >
-              <img src="/images/coach-wasim.webp" alt="Wasim, your AI fitness coach" className="w-full drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
-              <span className="absolute top-2 left-2 text-xs font-medium px-3 py-1 rounded-full bg-black/60 backdrop-blur border border-white/10">Wasim · AI Coach</span>
+              <img
+                src="/images/coach-wasim.webp"
+                alt="Wasim, your AI fitness coach"
+                className="h-[300px] sm:h-[400px] md:h-[480px] w-auto object-contain object-bottom drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
+              />
+              <span className="mt-4 text-xs sm:text-sm font-medium px-4 py-1.5 rounded-full bg-white/5 backdrop-blur border border-white/10">
+                Wasim · <span className="text-blue-400">AI Coach</span>
+              </span>
             </motion.div>
 
+            {/* Jazz */}
             <motion.div
-              initial={{ opacity: 0, x: 40 }}
+              initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.15 }}
-              className="relative w-1/2 max-w-xs"
+              className="relative flex flex-col items-center"
             >
-              <img src="/images/coach-jazz.webp" alt="Jazz, your AI fitness coach" className="w-full drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
-              <span className="absolute top-2 right-2 text-xs font-medium px-3 py-1 rounded-full bg-black/60 backdrop-blur border border-white/10">Jazz · AI Trainer</span>
+              <img
+                src="/images/coach-jazz.webp"
+                alt="Jazz, your AI fitness coach"
+                className="h-[300px] sm:h-[400px] md:h-[480px] w-auto object-contain object-bottom drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
+              />
+              <span className="mt-4 text-xs sm:text-sm font-medium px-4 py-1.5 rounded-full bg-white/5 backdrop-blur border border-white/10">
+                Jazz · <span className="text-violet-400">AI Trainer</span>
+              </span>
             </motion.div>
 
           </div>
@@ -196,7 +212,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       <TrustStrip />
 
       {/* PROBLEM */}
-      <section className="py-28 px-6 text-center bg-gray-900">
+      <section className="py-20 px-6 text-center bg-gray-900">
         <motion.div initial="hidden" whileInView="show" variants={fadeUp}>
 
           <h2 className="text-4xl font-bold">The Problem with Fitness Today</h2>
@@ -211,7 +227,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       </section>
 
       {/* SOLUTION */}
-      <section className="py-28 px-6 text-center">
+      <section className="py-20 px-6 text-center">
         <motion.div initial="hidden" whileInView="show" variants={fadeUp}>
 
           <h2 className="text-4xl font-bold">The TechnoFit <span className="text-emerald-400">Solution</span></h2>
@@ -228,7 +244,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       <HowItWorks />
 
       {/* DEMO VIDEO SECTION */}
-<section id="demo" className="py-28 px-6 text-center bg-gradient-to-b from-gray-900 to-black">
+<section id="demo" className="py-20 px-6 text-center bg-gradient-to-b from-gray-900 to-black">
 
   <h2 className="text-4xl font-bold mb-6">
     See TechnoFit in Action
@@ -258,7 +274,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 </section>
 
       {/* FEATURES */}
-      <section className="py-28 px-10">
+      <section className="py-20 px-10">
         <h2 className="text-4xl text-center font-bold mb-16">
           Powerful Features Designed for <span className="text-emerald-400">Real Results</span>
         </h2>
@@ -312,7 +328,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       </section>
 
       {/* UI */}
-      <section className="py-28 text-center bg-gray-900">
+      <section className="py-20 text-center bg-gray-900">
 
   <h2 className="text-4xl font-bold mb-6">
     Experience the Interface
@@ -323,43 +339,22 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     responsive, and built for real results.
   </p>
 
-  <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-8">
+  <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-6 md:gap-8 max-w-5xl mx-auto">
 
-    {/* SPLASH */}
-    <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
-      
-      <img
-        src="/images/ui-splash.webp"
-        className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
-      />
-
-      {/* Glow effect */}
-      <div className="absolute inset-0 bg-blue-500/10 opacity-0 group-hover:opacity-100 transition duration-500 blur-2xl"></div>
-
+    {/* SPLASH (side) */}
+    <div className="relative w-40 sm:w-52 md:w-1/4 md:mt-10 transition duration-500 hover:-translate-y-2">
+      <img src="/images/ui-splash.webp" alt="TechnoFit splash screen" className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
     </div>
 
-    {/* DASHBOARD */}
-    <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
-      
-      <img
-        src="/images/ui-dashboard.webp"
-        className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
-      />
-
-      <div className="absolute inset-0 bg-blue-500/10 opacity-0 group-hover:opacity-100 transition duration-500 blur-2xl"></div>
-
+    {/* DASHBOARD (center, larger — the real app dashboard) */}
+    <div className="relative w-56 sm:w-64 md:w-1/3 z-10 transition duration-500 hover:-translate-y-2">
+      <div className="absolute -inset-6 bg-gradient-to-r from-blue-600/25 to-violet-600/25 blur-3xl rounded-full -z-10"></div>
+      <img src="/images/ui-dashboard.webp" alt="TechnoFit app dashboard" className="w-full h-auto drop-shadow-[0_28px_50px_rgba(0,0,0,0.6)]" />
     </div>
 
-    {/* TRAINING */}
-    <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg">
-      
-      <img
-        src="/images/ui-training.webp"
-        className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
-      />
-
-      <div className="absolute inset-0 bg-blue-500/10 opacity-0 group-hover:opacity-100 transition duration-500 blur-2xl"></div>
-
+    {/* TRAINING (side) */}
+    <div className="relative w-40 sm:w-52 md:w-1/4 md:mt-10 transition duration-500 hover:-translate-y-2">
+      <img src="/images/ui-training.webp" alt="TechnoFit live form tracking" className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
     </div>
 
   </div>
@@ -367,7 +362,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 </section>
       {/* FOUNDERS */}
       {/* FOUNDERS SECTION */}
-<section className="py-28 px-6 bg-black text-center">
+<section className="py-20 px-6 bg-black text-center">
 
   <h2 className="text-4xl md:text-5xl font-bold mb-6">
     Built by Passion. Powered by Experience.

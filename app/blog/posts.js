@@ -1,0 +1,146 @@
+// Blog content for TechnoFit. Each post renders on /blog/<slug>.
+export const POSTS = [
+  {
+    slug: "why-most-fitness-apps-fail",
+    title: "Why Most Fitness Apps Fail You — And How TechnoFit Is Different",
+    description:
+      "Most fitness apps are passive video libraries that can't see you. Here's why that breaks results, and how TechnoFit's AI coaching fixes it.",
+    date: "2026-09-23",
+    tags: ["AI Fitness", "Fitness Apps", "Form Correction"],
+    readMins: 6,
+    excerpt:
+      "Most fitness apps just play videos — they can't see whether you're doing the movement right. That gap is why people plateau, get injured, or quit. Here's how TechnoFit closes it.",
+    blocks: [
+      { p: "Open almost any fitness app and you'll find the same thing: a library of workout videos, a timer, and a streak counter. It looks helpful. But there's a fundamental problem hiding in plain sight — the app has no idea what you're actually doing." },
+      { h2: "The problem: fitness apps are passive" },
+      { p: "A pre-recorded video can show you a squat. It cannot tell you that your knees are caving in, your back is rounding, or that you're only going halfway down. It never adapts to your body, your injuries, or your goals. You're left guessing — and guessing is exactly what leads to three bad outcomes:" },
+      { ul: [
+        "Injuries, because bad form under load is how people hurt their backs, knees and shoulders.",
+        "Slow or no results, because a movement done incorrectly barely works the muscle it's meant to.",
+        "Giving up, because when effort doesn't show results, motivation collapses.",
+      ]},
+      { p: "The uncomfortable truth is that most people who don't see results aren't lazy. They're working hard at the wrong thing, with no one to correct them." },
+      { h2: "What's actually missing: a coach that can see you" },
+      { p: "In the real world, a good personal trainer solves this instantly. They watch you move, catch mistakes in real time, and adjust the plan as you improve. The problem is that expert coaching is expensive, hard to schedule, and simply unavailable to most people on the planet." },
+      { p: "That's the gap TechnoFit was built to close — not with more videos, but with intelligence." },
+      { h2: "How TechnoFit is different" },
+      { p: "TechnoFit turns your phone's camera into an intelligent coach. Instead of playing a clip and hoping for the best, it watches your movement in real time, understands your body position, and corrects you the instant your form drifts — the way a trainer standing beside you would." },
+      { p: "Because it can see you, everything else changes:" },
+      { ul: [
+        "Every rep is checked, so you train safely and effectively.",
+        "The plan adapts to your level, your health conditions and your progress.",
+        "You get voice coaching, smart nutrition guidance, physiotherapy-aware programs and mental wellness support — one connected system, not five disconnected apps.",
+      ]},
+      { p: "It's the difference between an app that tracks your workout and a coach that actually improves it." },
+      { h2: "The bottom line" },
+      { p: "Fitness doesn't fail people because they lack effort. It fails them because they train without real feedback. TechnoFit brings that feedback to everyone — intelligent, real-time coaching that sees, corrects and evolves with you." },
+      { cta: true },
+    ],
+  },
+  {
+    slug: "what-makes-technofit-different",
+    title: "What Makes TechnoFit Different: Not Just Another Fitness App",
+    description:
+      "TechnoFit isn't a workout library. It's an AI fitness ecosystem with real-time form correction, voice coaching, smart nutrition, physiotherapy and mental wellness in one place.",
+    date: "2026-09-23",
+    tags: ["AI Fitness", "Product"],
+    readMins: 5,
+    excerpt:
+      "There are thousands of fitness apps. Almost all of them do the same thing. Here's what genuinely sets TechnoFit apart — and why it's an ecosystem, not an app.",
+    blocks: [
+      { p: "\"Another fitness app\" is a fair thing to be skeptical about. The app stores are full of them, and most are variations on the same idea: a catalogue of workouts you scroll through alone. TechnoFit is built on a different premise." },
+      { h2: "1. It sees you — real-time AI form correction" },
+      { p: "The core difference is that TechnoFit uses your camera to watch your movement and correct your form rep by rep, in real time. No wearables, no extra equipment — just your phone acting as an ever-present coach. This is the feature everything else is built around." },
+      { h2: "2. It talks with you — voice coaching" },
+      { p: "In the middle of a workout, tapping menus is the last thing you want to do. TechnoFit lets you talk to your coach naturally. Say you're tired and the session adjusts. Ask what's next and it guides you. The technology gets out of the way so the coaching feels human." },
+      { h2: "3. It feeds you — smart nutrition and 'cook with the coach'" },
+      { p: "Exercise is only half the equation. TechnoFit gives personalized nutrition guidance based on your body, goals and health conditions — and you can even snap a photo of your meal for instant AI analysis. Nutrition stops being guesswork." },
+      { h2: "4. It protects you — physiotherapy-aware training" },
+      { p: "Most apps push intensity with no regard for safety. TechnoFit includes programs designed around recovery and injury management, so training works with your body instead of against it." },
+      { h2: "5. It supports your mind — mental wellness" },
+      { p: "Real fitness isn't only physical. TechnoFit treats mental wellness as part of the system, not an afterthought, because consistency and results depend on how you feel, not just how you move." },
+      { h2: "One ecosystem, not five apps" },
+      { p: "What truly sets TechnoFit apart is that these aren't separate tools bolted together — they're one intelligent ecosystem that understands you across training, nutrition, recovery and wellbeing. That's the shift: from an app that tracks fitness to a coach that delivers it." },
+      { cta: true },
+    ],
+  },
+  {
+    slug: "ai-form-correction-explained",
+    title: "AI Form Correction: How TechnoFit Watches Every Rep",
+    description:
+      "Bad form causes injuries and kills results. Here's how TechnoFit's real-time AI pose correction sees your movement through your phone camera and fixes it instantly.",
+    date: "2026-09-23",
+    tags: ["AI Form Correction", "Technology"],
+    readMins: 6,
+    excerpt:
+      "The single biggest reason people don't get results isn't effort — it's form. Here's how TechnoFit's AI sees your movement and corrects it in real time.",
+    blocks: [
+      { p: "Ask any experienced trainer what separates people who get results from people who don't, and most will give the same answer: form. Not effort, not genetics — technique. And technique is exactly what you can't judge on your own." },
+      { h2: "Why form is so hard to fix alone" },
+      { p: "When you squat, you can't see your own back angle. When you press, you can't feel that one shoulder is doing more work. A slight knee misalignment or a rounded spine can quietly reduce a movement's effectiveness and raise your injury risk — and you'd never know. Mirrors help a little; they don't correct you." },
+      { h2: "How TechnoFit's AI pose correction works" },
+      { p: "TechnoFit uses your phone's camera to track your body's movement in real time. It maps your joints and posture as you move, compares them against correct movement patterns, and detects the moment your form deviates." },
+      { p: "The key word is real time. TechnoFit doesn't just record you to review later — it understands and corrects in the moment. Lean too far forward in a squat and, within seconds, it guides you back into the right position, exactly like a professional trainer standing beside you." },
+      { h2: "A simple example" },
+      { p: "Imagine doing squats at home. Your back starts to round on the fifth rep. A video app keeps playing. TechnoFit catches it immediately, tells you to correct, and makes sure your sixth rep is safe and effective. Multiply that across every rep of every session and the difference in results — and safety — is enormous." },
+      { h2: "Why it matters" },
+      { ul: [
+        "Fewer injuries: bad form under fatigue is when most home-workout injuries happen.",
+        "Faster results: a correctly performed rep actually trains the muscle it's meant to.",
+        "Real confidence: you stop wondering \"am I doing this right?\" because you know.",
+      ]},
+      { p: "Form correction used to be something only in-person trainers could offer. TechnoFit makes it available to anyone with a phone — turning every workout into a precise, guided, results-driven session." },
+      { cta: true },
+    ],
+  },
+  {
+    slug: "cook-with-the-coach",
+    title: "Cook With the Coach: AI Nutrition That Fits Your Life",
+    description:
+      "Exercise alone won't transform your body. TechnoFit's smart nutrition and food-scan AI make eating right practical — personalized to your goals, not generic meal plans.",
+    date: "2026-09-23",
+    tags: ["Nutrition", "AI Fitness"],
+    readMins: 5,
+    excerpt:
+      "You can't out-train a bad diet. TechnoFit makes nutrition simple with AI meal analysis and guidance built around your body and goals — no calorie-counting spreadsheets required.",
+    blocks: [
+      { p: "Every trainer knows the saying: you can't out-train a bad diet. Yet nutrition is where most people struggle the most. What should I eat? How much? Am I even doing this right? The confusion is enough to make people give up on the food side entirely — and lose the results they earned in the gym." },
+      { h2: "Why nutrition trips everyone up" },
+      { p: "Generic meal plans ignore your body, your culture and your daily life. Calorie-counting apps turn every meal into data entry. Most people don't need a spreadsheet — they need guidance they can actually follow." },
+      { h2: "How TechnoFit makes eating right simple" },
+      { p: "TechnoFit provides intelligent, personalized nutrition guidance tailored to your body, your goals and your health conditions. Instead of a one-size-fits-all diet, it considers your calorie needs and macro balance and helps you eat in a way that's sustainable." },
+      { p: "And it removes the friction. Not sure whether a meal fits your plan? Snap a photo. TechnoFit's food-scan AI analyzes it and tells you what you're eating — no manual logging, no guesswork. It's the closest thing to having a nutrition coach look at your plate." },
+      { h2: "\"Cook with the coach\"" },
+      { p: "The goal isn't restriction — it's confidence. Trying to lose weight? Instead of random dieting, TechnoFit guides you with structured meals that keep your energy up while fat comes off. Building muscle? It helps you fuel the work. Nutrition becomes something you understand, not something you fear." },
+      { h2: "The result" },
+      { p: "When training and nutrition finally work together — both guided by the same intelligent coach — results stop being an accident. That's what TechnoFit is built to deliver: fitness and food as one connected, personalized system." },
+      { cta: true },
+    ],
+  },
+  {
+    slug: "mental-wellness-and-fitness",
+    title: "Train Your Mind Too: Why Mental Wellness Is Part of TechnoFit",
+    description:
+      "Fitness isn't only physical. TechnoFit builds mental wellness into the experience, because motivation, stress and mindset decide whether you actually stick with it.",
+    date: "2026-09-23",
+    tags: ["Mental Wellness", "AI Fitness"],
+    readMins: 5,
+    excerpt:
+      "The hardest part of fitness isn't the workout — it's showing up, again and again. That's a mindset problem, which is why TechnoFit treats mental wellness as core, not optional.",
+    blocks: [
+      { p: "Ask people why they stopped working out and you'll rarely hear \"the exercises were too hard.\" You'll hear \"I lost motivation,\" \"I got stressed,\" \"life got in the way.\" Fitness isn't only a physical challenge — it's a mental one. And most apps ignore that entirely." },
+      { h2: "The part fitness apps forget" },
+      { p: "A workout library assumes the hard part is the workout. But for most people, the hard part is consistency — showing up on the days you're tired, stressed, or discouraged. If an app can't support you through those days, its content doesn't matter." },
+      { h2: "How TechnoFit supports your mind" },
+      { p: "TechnoFit treats mental wellness as part of the system, not a separate app you'll never open. Coaching that adapts when you're low on energy, encouragement that feels human, and a focus on how you feel — not just how you perform — all help you stay consistent when motivation dips." },
+      { p: "Because TechnoFit talks with you and adapts to you, it can meet you where you are. Some days that means pushing you. Other days it means adjusting, being encouraging, and helping you simply show up. That flexibility is what turns fitness from a burst of motivation into a lasting habit." },
+      { h2: "Why it matters for results" },
+      { p: "Results come from consistency, and consistency is a mindset before it's a workout. By caring for your mental wellbeing alongside your physical training, TechnoFit helps you build the one thing every fitness journey actually depends on: the ability to keep going." },
+      { h2: "A more human approach to fitness" },
+      { p: "This is what \"intelligent fitness\" really means — not just smarter workouts, but a coach that understands the whole person. Body and mind, trained together." },
+      { cta: true },
+    ],
+  },
+];
+
+export const getPost = (slug) => POSTS.find((p) => p.slug === slug);

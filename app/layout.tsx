@@ -58,6 +58,9 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION }
+    : undefined,
 };
 
 export default function RootLayout({
@@ -81,7 +84,7 @@ export default function RootLayout({
               url: "https://techno-fit.com",
               logo: "https://techno-fit.com/apple-touch-icon.png",
               description: "AI-powered fitness coaching platform.",
-              sameAs: [],
+              sameAs: ["https://share.google/VQYndz4eCqSHAnJ6W"],
             }),
           }}
         />

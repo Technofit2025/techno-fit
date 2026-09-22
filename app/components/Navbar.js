@@ -18,6 +18,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/features", label: "Features" },
     { href: "/about", label: "About" },
+    { href: "/blog", label: "Blog" },
   ];
 
   return (

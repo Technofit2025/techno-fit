@@ -19,6 +19,7 @@ export default function Footer() {
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/features" className="hover:text-white transition">Features</Link></li>
                 <li><Link href="/about" className="hover:text-white transition">About</Link></li>
+                <li><Link href="/blog" className="hover:text-white transition">Blog</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition">Early Access</Link></li>
               </ul>
             </div>
@@ -33,6 +34,7 @@ export default function Footer() {
               <h3 className="text-white font-semibold mb-3">Contact</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="mailto:hello@techno-fit.com" className="hover:text-white transition">hello@techno-fit.com</a></li>
+                <li><a href="https://share.google/VQYndz4eCqSHAnJ6W" target="_blank" rel="noopener" className="hover:text-white transition">Find us on Google</a></li>
               </ul>
             </div>
           </div>

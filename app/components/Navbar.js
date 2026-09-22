@@ -31,7 +31,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-7xl flex items-center justify-between px-5 md:px-8 h-16">
         {/* LOGO */}
         <Link href="/" aria-label="TechnoFit home" className="shrink-0">
-          <img src="/logo-white.webp" alt="TechnoFit" className="h-11 w-auto" />
+          <img src="/logo-white.webp" alt="TechnoFit" className="h-12 md:h-14 w-auto" />
         </Link>
 
         {/* DESKTOP MENU */}

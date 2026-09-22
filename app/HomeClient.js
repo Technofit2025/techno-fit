@@ -339,22 +339,21 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
     responsive, and built for real results.
   </p>
 
-  <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-6 md:gap-8 max-w-5xl mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto items-end justify-items-center">
 
-    {/* SPLASH (side) */}
-    <div className="relative w-40 sm:w-52 md:w-1/4 md:mt-10 transition duration-500 hover:-translate-y-2">
-      <img src="/images/ui-splash.webp" alt="TechnoFit splash screen" className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
+    {/* SPLASH */}
+    <div className="transition duration-500 hover:-translate-y-2">
+      <img src="/images/ui-splash.webp" alt="TechnoFit splash screen" className="h-[360px] md:h-[440px] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
     </div>
 
-    {/* DASHBOARD (center, larger — the real app dashboard) */}
-    <div className="relative w-56 sm:w-64 md:w-1/3 z-10 transition duration-500 hover:-translate-y-2">
-      <div className="absolute -inset-6 bg-gradient-to-r from-blue-600/25 to-violet-600/25 blur-3xl rounded-full -z-10"></div>
-      <img src="/images/ui-dashboard.webp" alt="TechnoFit app dashboard" className="w-full h-auto drop-shadow-[0_28px_50px_rgba(0,0,0,0.6)]" />
+    {/* DASHBOARD (the app home/dashboard) */}
+    <div className="transition duration-500 hover:-translate-y-2">
+      <img src="/images/ui-dashboard.webp" alt="TechnoFit app dashboard" className="h-[360px] md:h-[440px] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
     </div>
 
-    {/* TRAINING (side) */}
-    <div className="relative w-40 sm:w-52 md:w-1/4 md:mt-10 transition duration-500 hover:-translate-y-2">
-      <img src="/images/ui-training.webp" alt="TechnoFit live form tracking" className="w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
+    {/* TRAINING */}
+    <div className="transition duration-500 hover:-translate-y-2">
+      <img src="/images/ui-training.webp" alt="TechnoFit live form tracking" className="h-[360px] md:h-[440px] w-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]" />
     </div>
 
   </div>

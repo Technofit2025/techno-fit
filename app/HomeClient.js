@@ -44,7 +44,7 @@ export default function Home() {
       <br />
       Fitness.
       <br />
-      Real Results.
+      Real <span className="text-emerald-400">Results.</span>
     </h1>
 
     <p className="mt-6 p-text text-lg leading-relaxed">
@@ -214,7 +214,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       <section className="py-28 px-6 text-center">
         <motion.div initial="hidden" whileInView="show" variants={fadeUp}>
 
-          <h2 className="text-4xl font-bold">The TechnoFit Solution</h2>
+          <h2 className="text-4xl font-bold">The TechnoFit <span className="text-emerald-400">Solution</span></h2>
 
           <p className="mt-8 max-w-4xl mx-auto p-text leading-relaxed">
             TechnoFit adds real intelligence to fitness. It watches your movement, catches mistakes the
@@ -260,7 +260,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       {/* FEATURES */}
       <section className="py-28 px-10">
         <h2 className="text-4xl text-center font-bold mb-16">
-          Powerful Features Designed for Real Results
+          Powerful Features Designed for <span className="text-emerald-400">Real Results</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">

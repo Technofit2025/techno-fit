@@ -433,10 +433,6 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 
       </section>
 
-      <footer className="text-center py-10 text-gray-500">
-        © 2026 TechnoFit | All rights reserved. Powered by Technometics.
-      </footer>
-
     </main>
   );
 }

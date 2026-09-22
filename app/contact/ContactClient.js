@@ -139,7 +139,7 @@ export default function Contact() {
               className={`w-full p-4 rounded-lg text-lg font-semibold transition ${
                 isSubmitting
                   ? "bg-gray-600 cursor-not-allowed"
-                  : "bg-blue-600 hover:bg-blue-700"
+                  : "bg-gradient-to-r from-blue-600 to-violet-600 hover:opacity-90"
               }`}
             >
               {isSubmitting ? "Submitting..." : "Get Early Access 🚀"}

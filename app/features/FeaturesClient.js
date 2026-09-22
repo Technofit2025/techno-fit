@@ -21,6 +21,7 @@ export default function Features() {
       {/* HERO */}
       <section className="text-center py-32 px-6 relative">
         <div className="absolute inset-0 bg-blue-600/10 blur-3xl"></div>
+        <div className="absolute right-0 top-0 w-[500px] h-[500px] bg-violet-600/10 blur-3xl rounded-full"></div>
 
         <motion.div initial="hidden" animate="show" variants={fadeUp} className="relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">

@@ -23,15 +23,24 @@ export default function Home() {
   {/* BACKGROUND */}
   <div className="absolute inset-0 bg-black z-0"></div>
 
-  {/* BLUE GLOW BACK */}
+  {/* BLUE + PURPLE GLOW */}
   <div className="absolute right-[-200px] top-[-100px] w-[700px] h-[700px] bg-blue-600/20 blur-3xl rounded-full z-0"></div>
+  <div className="absolute left-[-220px] bottom-[-120px] w-[620px] h-[620px] bg-violet-600/20 blur-3xl rounded-full z-0"></div>
 
   {/* LEFT CONTENT */}
   <div className="relative z-30 max-w-xl">
 
    
+    <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">
+      <span className="relative flex h-2 w-2">
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+        <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>
+      </span>
+      Early access is now open
+    </div>
+
     <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-      <span className="text-blue-500">AI-Powered</span>
+      <span className="bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">AI-Powered</span>
       <br />
       Fitness.
       <br />
@@ -51,7 +60,7 @@ export default function Home() {
     <div className="mt-8 flex flex-wrap gap-4">
 
       <a href="/contact">
-        <button className="px-6 py-3 bg-blue-600 rounded-xl shadow-[0_0_20px_#3b82f6] hover:scale-105 transition">
+        <button className="px-6 py-3 bg-gradient-to-r from-blue-600 to-violet-600 rounded-xl shadow-[0_0_24px_rgba(124,58,237,0.5)] hover:scale-105 transition">
           Get Early Access
         </button>
       </a>
@@ -157,7 +166,7 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
           <div className="relative max-w-5xl mx-auto flex items-end justify-center gap-4 md:gap-16">
 
             {/* glow stage */}
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[70%] h-40 bg-blue-600/25 blur-3xl rounded-full -z-10"></div>
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[70%] h-44 bg-gradient-to-r from-blue-600/30 to-violet-600/30 blur-3xl rounded-full -z-10"></div>
 
             <motion.div
               initial={{ opacity: 0, x: -40 }}
@@ -450,18 +459,25 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
       <Faq />
 
       {/* CTA */}
-      <section className="py-28 text-center bg-blue-600">
+      <section className="py-24 px-6 bg-black">
+        <div className="relative max-w-5xl mx-auto rounded-3xl overflow-hidden px-8 py-16 md:py-20 text-center bg-gradient-to-br from-blue-600 to-violet-600">
+          <div className="absolute -top-24 -right-20 w-72 h-72 bg-white/15 blur-3xl rounded-full"></div>
+          <div className="absolute -bottom-24 -left-20 w-72 h-72 bg-violet-400/30 blur-3xl rounded-full"></div>
 
-        <h2 className="text-4xl md:text-5xl font-bold">
-          Be Among the First to Experience the Future
-        </h2>
-
-        <a href="/contact">
-          <button className="mt-8 px-10 py-4 bg-white text-blue-600 rounded-xl hover:scale-105 transition">
-            Get Early Access
-          </button>
-        </a>
-
+          <div className="relative">
+            <h2 className="text-3xl md:text-4xl font-bold max-w-2xl mx-auto leading-tight">
+              Be among the first to experience the future
+            </h2>
+            <p className="mt-4 text-white/85 max-w-xl mx-auto">
+              Join the early-access list and help shape TechnoFit before launch.
+            </p>
+            <a href="/contact">
+              <button className="mt-8 px-8 py-3.5 bg-white text-blue-700 font-semibold rounded-full hover:scale-105 transition">
+                Get Early Access
+              </button>
+            </a>
+          </div>
+        </div>
       </section>
 
     </main>

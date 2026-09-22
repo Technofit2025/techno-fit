@@ -2,6 +2,9 @@
 
 import { motion } from "framer-motion";
 import { IconPose, IconCoach, IconDiet, IconWellness, IconVoice, IconPhysio, IconTarget, IconGlobe } from "./components/Icons";
+import HowItWorks from "./components/HowItWorks";
+import TrustStrip from "./components/TrustStrip";
+import Faq from "./components/Faq";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 80 },
@@ -181,6 +184,8 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
         </motion.div>
       </section>
 
+      <TrustStrip />
+
       {/* PROBLEM */}
       <section className="py-28 px-6 text-center bg-gray-900">
         <motion.div initial="hidden" whileInView="show" variants={fadeUp}>
@@ -211,6 +216,8 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
 
         </motion.div>
       </section>
+
+      <HowItWorks />
 
       {/* DEMO VIDEO SECTION */}
 <section id="demo" className="py-28 px-6 text-center bg-gradient-to-b from-gray-900 to-black">
@@ -442,6 +449,8 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
   </div>
 
 </section>
+      <Faq />
+
       {/* CTA */}
       <section className="py-28 text-center bg-blue-600">
 

@@ -193,9 +193,9 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
           <h2 className="text-4xl font-bold">The Problem with Fitness Today</h2>
 
           <p className="mt-8 max-w-4xl mx-auto p-text leading-relaxed">
-            Most fitness apps today are passive. They show you workouts but have no understanding of your body.
-            Users are left guessing whether they are doing exercises correctly, which often leads to injuries,
-            poor results, and eventually giving up. Fitness lacks real-time intelligence and personalization.
+            Most fitness apps are passive — they play a video but can&rsquo;t see you. So you&rsquo;re left
+            guessing whether your form is right, and that guesswork leads to injuries, slow progress, and
+            eventually giving up.
           </p>
 
         </motion.div>
@@ -208,10 +208,9 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
           <h2 className="text-4xl font-bold">The TechnoFit Solution</h2>
 
           <p className="mt-8 max-w-4xl mx-auto p-text leading-relaxed">
-            TechnoFit introduces real intelligence into fitness. It watches your movements,
-            detects mistakes instantly, and corrects them in real time — ensuring every workout is safe,
-            effective, and optimized. It adapts to your fitness level, your health conditions, and your goals,
-            creating a truly personalized experience.
+            TechnoFit adds real intelligence to fitness. It watches your movement, catches mistakes the
+            instant they happen, and corrects them — adapting to your level, your body, and your goals so
+            every session actually counts.
           </p>
 
         </motion.div>
@@ -366,10 +365,9 @@ drop-shadow-[0_0_40px_rgba(59,130,246,0.6)]"
   </h2>
 
   <p className="p-text max-w-3xl mx-auto mb-20 leading-relaxed text-lg">
-    TechnoFit was not created as just another fitness application. It was born from a powerful vision —
-    to bridge the gap between real-world fitness expertise and intelligent technology. Built by passionate
-    athletes and seasoned technology leaders, TechnoFit represents years of discipline, innovation, and a
-    deep understanding of what truly drives results in fitness and wellness.
+    TechnoFit wasn&rsquo;t built as just another fitness app. It was built to close the gap between
+    real-world coaching and intelligent technology — by athletes and technology leaders who know what
+    actually drives results.
   </p>
 
   <div className="space-y-20 max-w-5xl mx-auto">

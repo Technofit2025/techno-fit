@@ -92,14 +92,13 @@ export default function About() {
   {/* JAZZ */}
   <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 group hover:scale-105 transition duration-500">
 
-    <div className="relative w-36 h-36 mx-auto mb-6">
+    <div className="relative h-64 mb-6 flex items-end justify-center">
+      <div className="absolute bottom-0 w-40 h-24 bg-blue-500/20 blur-2xl rounded-full"></div>
       <img
-        src="/images/ai-jazz.webp"
-        className="w-full h-full object-cover rounded-full"
+        src="/images/coach-jazz.webp"
+        alt="Jazz, AI fitness coach"
+        className="relative h-full w-auto object-contain drop-shadow-[0_16px_30px_rgba(0,0,0,0.5)] group-hover:scale-105 transition duration-500"
       />
-
-      {/* Glow */}
-      <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
     </div>
 
     <h3 className="text-2xl font-semibold">Jazz</h3>
@@ -115,13 +114,13 @@ export default function About() {
   {/* WASIM AI */}
   <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 group hover:scale-105 transition duration-500">
 
-    <div className="relative w-36 h-36 mx-auto mb-6">
+    <div className="relative h-64 mb-6 flex items-end justify-center">
+      <div className="absolute bottom-0 w-40 h-24 bg-violet-500/20 blur-2xl rounded-full"></div>
       <img
-        src="/images/ai-wasim.webp"
-        className="w-full h-full object-cover rounded-full"
+        src="/images/coach-wasim.webp"
+        alt="Wasim, AI performance coach"
+        className="relative h-full w-auto object-contain drop-shadow-[0_16px_30px_rgba(0,0,0,0.5)] group-hover:scale-105 transition duration-500"
       />
-
-      <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
     </div>
 
     <h3 className="text-2xl font-semibold">Wasim (AI Avatar)</h3>
@@ -370,7 +369,7 @@ export default function About() {
     <div>
 
       <h3 className="text-3xl font-bold">Bhakti Dabholkar</h3>
-      <p className="text-blue-400 mt-1">Strategic & Creative Partner</p>
+      <p className="text-violet-400 mt-1">Strategic & Creative Partner</p>
 
       <p className="mt-6 p-text leading-relaxed">
         Bhakti has played a pivotal role in shaping the identity of TechnoFit — bringing

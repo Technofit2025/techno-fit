@@ -204,6 +204,75 @@ export const POSTS = [
       { cta: true },
     ],
   },
+  {
+    slug: "ai-watches-your-own-workout",
+    title: "Do Your Own Workout — Let the AI Coach Watch, Correct and Count",
+    description:
+      "A first-of-its-kind TechnoFit feature: do your own freestyle workout while the AI coach watches through your camera, corrects your form in real time, and counts every rep for you.",
+    date: "2026-09-25",
+    tags: ["AI Form Correction", "Rep Counting", "Product"],
+    readMins: 6,
+    excerpt:
+      "Most apps make you follow their routine. TechnoFit flips it: you do your own workout, and the AI coach watches, corrects your form and counts your reps automatically — something no other fitness app does.",
+    blocks: [
+      { p: "Here's how almost every fitness app works: it hands you a routine, plays a video, and you follow along. But that's not how most people actually train. You have your own exercises, your own split, your own way of working out. What you've never had is a coach watching while you do it — until now." },
+      { h2: "A first-of-its-kind feature" },
+      { p: "TechnoFit introduces something no other fitness app offers: you do your own workout, your own way, and the AI coach monitors you the entire time. Using your phone's camera, it watches your movement, corrects your form in real time, and counts your reps automatically — no buttons, no manual logging, no following someone else's video." },
+      { p: "Think about what that means. You're no longer choosing between \"train the way I want\" and \"get expert feedback.\" For the first time, you get both at once." },
+      { h2: "How it works" },
+      { p: "You set up your phone, start your set, and simply train. TechnoFit's AI tracks your body through the camera, understands the movement you're performing, and does three things at the same time:" },
+      { ul: [
+        "Watches your form and corrects you the instant it drifts — a rounding back, caving knees, a half rep.",
+        "Counts every rep automatically, so you never lose track or fumble with a screen mid-set.",
+        "Keeps a record of what you actually did, without you logging a single number.",
+      ]},
+      { p: "It's the experience of having a personal trainer standing beside you during your own workout — spotting mistakes, keeping count, and keeping you safe — except it's available any time, at home, with just your phone." },
+      { h2: "Why this is genuinely different" },
+      { p: "Other apps fall into two camps. Passive video apps show you a routine but can't see you at all. Rep-counting gadgets need wearables or special equipment and still can't judge your form. TechnoFit is the first to combine self-directed training, real-time form correction and automatic rep counting in one place, using nothing but the camera you already carry." },
+      { p: "That combination is the breakthrough. You're not locked into a prescribed video. You're not counting in your head or tapping after every set. You just work out — and an intelligent coach handles the watching, the correcting and the counting for you." },
+      { h2: "What it unlocks" },
+      { ul: [
+        "Freedom to train your way, while still getting expert-level feedback.",
+        "Safer sessions, because bad form is caught the moment it happens — even on your last, most fatigued reps.",
+        "Effortless tracking, because your reps are counted and recorded automatically.",
+        "Real accountability, because someone is finally watching — and it never gets tired or distracted.",
+      ]},
+      { h2: "The bottom line" },
+      { p: "This is what sets TechnoFit apart: it doesn't just tell you what to do, and it doesn't just play a video. It watches you do your own workout, corrects you rep by rep, and counts for you — a first-of-its-kind experience that turns any space into a coached training session." },
+      { cta: true },
+    ],
+  },
+  {
+    slug: "guided-cooking-with-the-coach",
+    title: "Cook Along With Your Coach: Guided, Step-by-Step Healthy Meals",
+    description:
+      "Knowing what to eat is one thing — actually making it is another. TechnoFit's guided cooking walks you through healthy meals step by step, so eating well finally feels doable.",
+    date: "2026-09-25",
+    tags: ["Nutrition", "Guided Cooking", "AI Fitness"],
+    readMins: 5,
+    excerpt:
+      "Most nutrition apps tell you what to eat and leave you there. TechnoFit goes further: your coach guides you through cooking the meal, step by step — turning good intentions into real, healthy food.",
+    blocks: [
+      { p: "There's a gap in almost every fitness journey that nobody talks about. You know you should eat better. You might even have a meal plan. But then you're standing in the kitchen, tired after a long day, staring at ingredients with no idea where to start — and the takeout menu wins again. Knowing what to eat and actually cooking it are two very different battles." },
+      { h2: "Why healthy eating breaks down in the kitchen" },
+      { p: "A meal plan on a screen is not a meal. Between the plan and the plate sits the real work: what do I do first, how much of this, is it done yet? For anyone who isn't a confident cook, that uncertainty is enough to give up — and all the good intentions never turn into good food." },
+      { h2: "How TechnoFit's guided cooking works" },
+      { p: "TechnoFit closes that gap by having your coach guide you through the cooking itself, step by step. Instead of just handing you a recipe and walking away, it walks with you — telling you what to do at each stage, in the right order, at a pace you can follow. It's the difference between being given instructions and being coached through them." },
+      { p: "Because it's guided rather than just written down, you're never left wondering what comes next. You follow along the way you'd follow a workout — one clear step at a time — until a healthy meal is actually on your plate." },
+      { h2: "One coach, from workout to plate" },
+      { p: "What makes this powerful is that guided cooking isn't a separate app — it's part of the same coach that trains you and guides your nutrition. It already understands your goals and your body, so the meals it cooks with you are the ones that actually support your training. Fitness and food stop being two disconnected efforts and become one continuous, guided experience." },
+      { h2: "Why it matters" },
+      { ul: [
+        "Less overwhelm: no more staring at ingredients wondering where to begin.",
+        "Real skills: you learn to cook healthy meals, not just read about them.",
+        "Consistency: when cooking feels doable, you actually keep doing it.",
+        "Alignment: the meals match the goals your coach is already training you toward.",
+      ]},
+      { h2: "The bottom line" },
+      { p: "Eating well shouldn't require being a chef. By guiding you through cooking step by step, TechnoFit turns healthy eating from an intention into a habit — with a coach beside you from your first rep to your last bite." },
+      { cta: true },
+    ],
+  },
 ];
 
 export const getPost = (slug) => POSTS.find((p) => p.slug === slug);

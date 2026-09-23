@@ -43,7 +43,7 @@ export default function BlogIndex() {
               </div>
               <h2 className="text-xl font-semibold group-hover:text-white transition-colors">{post.title}</h2>
               <p className="mt-3 p-text text-base">{post.excerpt}</p>
-              <span className="inline-block mt-5 text-blue-400 font-medium">Read more →</span>
+              <span className="inline-block mt-5 text-violet-400 font-medium">Read more →</span>
             </Link>
           ))}
         </div>

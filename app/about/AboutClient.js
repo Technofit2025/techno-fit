@@ -254,13 +254,13 @@ export default function About() {
 
   <div className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
 
-    {/* DICKI */}
+    {/* NOOR */}
     <div className="group">
 
       <div className="relative w-36 h-36 mx-auto mb-6">
         <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
           <img
-            src="/images/team-dicki.webp"
+            src="/images/team-noor.webp"
             className="w-full h-full object-cover scale-110"
           />
         </div>
@@ -268,20 +268,19 @@ export default function About() {
         <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
       </div>
 
-      <h3 className="text-xl font-semibold">Dicki Prima</h3>
-      <p className="text-blue-400 text-sm">Senior Software Developer</p>
-      <p className="text-gray-500 text-sm">Indonesia</p>
+      <h3 className="text-xl font-semibold">Noor Chauhan</h3>
+      <p className="text-blue-400 text-sm">Senior AI/ML Engineer</p>
 
     </div>
 
 
-    {/* FAISAL */}
+    {/* SARFARAZ */}
     <div className="group">
 
       <div className="relative w-36 h-36 mx-auto mb-6">
         <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
           <img
-            src="/images/team-faisal.webp"
+            src="/images/team-sarfaraz.webp"
             className="w-full h-full object-cover scale-110"
           />
         </div>
@@ -289,20 +288,19 @@ export default function About() {
         <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
       </div>
 
-      <h3 className="text-xl font-semibold">Faisal Mistry</h3>
-      <p className="text-blue-400 text-sm">AI Engineer</p>
-      <p className="text-gray-500 text-sm">Pune, India</p>
+      <h3 className="text-xl font-semibold">Sarfaraz Shaikh</h3>
+      <p className="text-blue-400 text-sm">Junior AI/ML Engineer</p>
 
     </div>
 
 
-    {/* RITESH */}
+    {/* PLACEHOLDER */}
     <div className="group">
 
       <div className="relative w-36 h-36 mx-auto mb-6">
         <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center shadow-xl">
           <img
-            src="/images/team-ritesh.webp"
+            src="/images/team-placeholder.webp"
             className="w-full h-full object-cover scale-110"
           />
         </div>
@@ -310,9 +308,8 @@ export default function About() {
         <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
       </div>
 
-      <h3 className="text-xl font-semibold">Ritesh Patil</h3>
-      <p className="text-blue-400 text-sm">Flutter Developer</p>
-      <p className="text-gray-500 text-sm">Kolhapur, India</p>
+      <h3 className="text-xl font-semibold">Coming Soon</h3>
+      <p className="text-gray-500 text-sm italic">New talent joining soon</p>
 
     </div>
 

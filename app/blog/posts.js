@@ -141,6 +141,69 @@ export const POSTS = [
       { cta: true },
     ],
   },
+  {
+    slug: "voice-coaching-ai-trainer",
+    title: "Just Talk to Your Coach: How Voice Coaching Works in TechnoFit",
+    description:
+      "Tapping a screen mid-workout breaks your focus. TechnoFit lets you talk to your AI trainer out loud — ask questions, get cues, and adjust your session hands-free.",
+    date: "2026-09-24",
+    tags: ["Voice Coaching", "AI Fitness"],
+    readMins: 5,
+    excerpt:
+      "In the middle of a set, the last thing you want is to stop and tap a screen. TechnoFit lets you simply talk to your coach — and it talks back, guiding you rep by rep.",
+    blocks: [
+      { p: "Picture the middle of a hard set. Your hands are busy, your heart rate is up, and you're focused on the movement. Now imagine having to stop, pick up your phone, and tap through menus to skip an exercise or check what's next. It breaks everything — your rhythm, your focus, your flow. This is the small friction that quietly ruins home workouts, and it's exactly what voice coaching removes." },
+      { h2: "Why screens get in the way of training" },
+      { p: "Fitness apps were designed to be watched and tapped. But real training doesn't happen while you're staring at a screen — it happens while you're moving. Every time you have to look down, reach over and tap, you leave the workout. A real trainer never makes you do that. They talk to you, and you talk back." },
+      { h2: "How TechnoFit's voice coaching works" },
+      { p: "TechnoFit lets you interact with your coach naturally, using your voice. You can ask what's next, say you need a longer rest, mention that a movement feels uncomfortable, or ask how many reps are left — all without touching your phone. And your coach responds out loud, guiding you through the session the way a trainer beside you would." },
+      { p: "Because the conversation is two-way, the coaching feels present rather than pre-recorded. It's not a video narrating at you; it's a coach responding to you, in the moment." },
+      { h2: "What this unlocks in a real workout" },
+      { ul: [
+        "Hands-free control: skip, pause, extend rest or ask a question without breaking form.",
+        "Real-time cues: hear corrections and encouragement exactly when you need them, not after the fact.",
+        "Fewer interruptions: your focus stays on the movement, which is where results are made.",
+        "A more human feel: talking to your coach makes training feel less like using an app and more like being trained.",
+      ]},
+      { h2: "Voice plus vision: the full picture" },
+      { p: "Voice coaching is powerful on its own, but in TechnoFit it works alongside real-time form correction. The camera sees how you move; the voice tells you what to do about it. Together they recreate the two things a great in-person trainer gives you — eyes on your technique and a voice guiding you through it — using nothing but the phone you already own." },
+      { h2: "The bottom line" },
+      { p: "The best coaching feels like a conversation, not a control panel. By letting you simply talk to your trainer, TechnoFit keeps you in the workout instead of in the app — so every session feels guided, natural, and genuinely coached." },
+      { cta: true },
+    ],
+  },
+  {
+    slug: "ai-physiotherapy-injury-recovery",
+    title: "Train Around Injuries, Not Into Them: AI Physiotherapy in TechnoFit",
+    description:
+      "Most fitness apps push intensity and ignore your body. TechnoFit's physiotherapy-aware training builds safe, recovery-focused programs so you can keep moving without getting hurt.",
+    date: "2026-09-24",
+    tags: ["Physiotherapy", "Injury Recovery", "AI Fitness"],
+    readMins: 6,
+    excerpt:
+      "A sore knee or a bad back shouldn't end your fitness journey. TechnoFit's physiotherapy-aware coaching adapts your training to your body so you recover and progress safely.",
+    blocks: [
+      { p: "For a huge number of people, fitness doesn't stop because of a lack of motivation — it stops because of an injury. A tweaked back, a sore knee, a shoulder that flares up. And the moment that happens, most fitness apps become useless, because they were only ever built to push harder, never to work around a limitation." },
+      { h2: "The problem with 'no pain, no gain' apps" },
+      { p: "Generic workout apps assume every user is uninjured, pain-free and ready for maximum intensity. They serve the same aggressive plans to everyone. For anyone recovering from an injury — or trying to avoid one — that's not just unhelpful, it's dangerous. Pushing through the wrong movement with bad form is how a small niggle becomes a serious setback." },
+      { p: "The result is a frustrating cycle: get motivated, start training hard, get hurt, stop, lose progress, repeat. Breaking that cycle requires training that respects your body." },
+      { h2: "How TechnoFit's physiotherapy-aware training helps" },
+      { p: "TechnoFit includes programs designed around recovery and injury management, so your training works with your body instead of against it. Rather than blindly increasing intensity, it takes your health conditions and physical limitations into account and adapts the plan accordingly." },
+      { p: "And because TechnoFit can actually see your movement through the camera, it does something a video app never could: it watches your form on every rep. For someone protecting a joint or recovering from an injury, correct form isn't about efficiency — it's about safety. Catching a dangerous movement pattern before it causes harm is exactly what an AI coach that sees you can do." },
+      { h2: "Recovery-focused, not intensity-obsessed" },
+      { ul: [
+        "Programs that account for injuries and health conditions instead of ignoring them.",
+        "Real-time form correction that keeps vulnerable joints safe under load.",
+        "Guidance that adapts as you recover, so you progress at the right pace.",
+        "Voice coaching to tell your trainer when something doesn't feel right — and have the session adjust.",
+      ]},
+      { h2: "Fitness that meets you where you are" },
+      { p: "The goal of TechnoFit isn't to push everyone to the same extreme. It's to give every person — including those managing injuries or coming back from one — a way to train safely and effectively. Recovery and fitness aren't opposites; with the right coaching, they're the same journey." },
+      { h2: "The bottom line" },
+      { p: "An injury shouldn't mean the end of your progress. With physiotherapy-aware programs and form correction that keeps you safe, TechnoFit helps you keep moving, keep improving, and train around your limits instead of straight into them. As always, TechnoFit's guidance supports your recovery — it doesn't replace advice from a qualified medical professional or physiotherapist." },
+      { cta: true },
+    ],
+  },
 ];
 
 export const getPost = (slug) => POSTS.find((p) => p.slug === slug);

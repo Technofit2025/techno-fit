@@ -1,25 +1,30 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Analytics from "./components/Analytics";
 import CookieConsent from "./components/CookieConsent";
-const geistSans = Geist({
+const geistSans = localFont({
+  src: "./fonts/Geist-Variable.woff2",
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  display: "swap",
+  weight: "100 900",
 });
 
-const geistMono = Geist_Mono({
+const geistMono = localFont({
+  src: "./fonts/GeistMono-Variable.woff2",
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
+  weight: "100 900",
 });
 
-const spaceGrotesk = Space_Grotesk({
+const spaceGrotesk = localFont({
+  src: "./fonts/SpaceGrotesk-Variable.woff2",
   variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  display: "swap",
+  weight: "300 700",
 });
 
 const SITE_URL = "https://techno-fit.com";
